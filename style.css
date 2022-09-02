@@ -1,0 +1,37 @@
+body{
+    color: rgb(253, 254, 253) /*ivory*/
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; /*very high number*/
+    display: flex; /*easier to manipulate positions*/
+    justify-content: space-between; /*separate logo and other links*/
+    padding: 0.7rem;
+
+    background: rgb(122, 21, 21); /*dark red*/
+    box-shadow: 0 0.3rem rgba(122, 21, 21, 0.3); /*darker red*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0.1rem 0.1rem rgb(143, 98, 47); /*dark mustard*/
+}
+
+header .logo{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(247, 221, 218); /*light pink*/
+    text-decoration: none;
+}
+
+header .navigation_bar a{
+    color: rgb(247, 221, 218); /*light pink*/
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+header .navigation_bar a:hover{
+    color: rgb(253, 254, 253); /*ivory*/
+    text-decoration: underline;
+}
