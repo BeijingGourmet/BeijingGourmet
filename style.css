@@ -19,19 +19,56 @@ header{
 }
 
 header .logo{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     color: rgb(247, 221, 218); /*light pink*/
     text-decoration: none;
 }
 
 header .navigation_bar a{
+    font-size: 1.5rem;
     color: rgb(247, 221, 218); /*light pink*/
     text-decoration: none;
-    padding-left: 1rem;
+    margin-left: 1rem;
+    
 }
 
 header .navigation_bar a:hover{
     color: rgb(253, 254, 253); /*ivory*/
     text-decoration: underline;
+}
+
+section{
+    padding-top: 50px;
+    /*background: url(images/takeout.jpg);*/
+    color: rgb(181, 122, 56); /*dark mustard*/
+}
+
+section #takeout{
+    height: auto;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1; /*bottom layer*/
+}
+
+section #tagline{
+    position: absolute;
+    position: relative to circle;
+    z-index: 50000;
+}
+
+.circle {
+    height: 40vw;
+    width: 40vw;
+    background-color: rgb(253, 254, 253); /*ivory*/
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    position: relative to takeout;
+    margin-left: 8vw;
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+    z-index: 2;
 }
