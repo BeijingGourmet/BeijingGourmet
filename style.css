@@ -131,10 +131,18 @@ section #meal{
 
 section #info{
     width: 95%;
-    margin-top: 20px;
+    margin-top: 90px;
     display: flex;
     justify-content: space-between;
     color:rgb(253, 254, 253); /*ivory*/
-    font-size: 4vw;
+    font-size: 3.5vw;
     position: absolute;
+}
+
+section #notice{
+    width: 95%;
+    position: absolute;
+    margin-top: 20px; /* relative to takeout */
+    color:rgb(253, 254, 253); /*ivory*/
+    font-size: 3.5vw;
 }
