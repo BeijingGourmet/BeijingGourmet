@@ -1,7 +1,7 @@
 body{
     color: rgb(253, 254, 253); /*ivory*/
     /*background-color:rgb(230, 160, 41); /*midnight*/
-    height: 100%;
+    /*height: 100%;*/
     margin: 0;
 }
 
@@ -48,7 +48,7 @@ section #chef{
     max-width: 100vw;
     height: auto;
     max-height: 100%;
-    margin-top: 1vh;
+    margin-top: 8vh;
 
     /*opacity: 2;*/
 }
@@ -64,9 +64,9 @@ section #about{
 
     z-index: 99;
     position: absolute;
-    top: 30vw;
-    left: 8vw;
-    right: 8vw;
+    top: 23vw;
+    left: 6vw;
+    right: 6vw;
     
     font-size: 2.5vw;
     font-weight: bold;
@@ -82,22 +82,24 @@ section #top_div{
     position: relative;
 }
 
-section .yelp-review{
-    width: 95vw;
+section #gallery_div{
+    position: relative;
+    left: 1vw;
+    right: 1vw;
 }
 
-section #reviews{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+#noodles{
+    width: 32vw;
+    
+}
+#pork{
+    width: 32vw;
+}
+#shrimp{
+    width: 32vw;
 }
 
-section #button_div{
-    margin-top: 10px;
-    display: flex;
-    justify-content: right;
-    margin-right: 5vw;
-}
+
 
 @media only screen and (max-width: 480px){
     header .logo{
