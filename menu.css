@@ -17,19 +17,20 @@ header{
 
     background: rgb(122, 21, 21); /*dark red*/
     box-shadow: 0 0.6vh rgba(122, 21, 21, 0.3); /*darker red*/
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 'Franklin Gothic Medium';
+    font-style: italic;
     text-shadow: 0.1rem 0.1rem rgb(143, 98, 47); /*dark mustard*/
 }
 
 header .logo{
-    font-size: 5vh;
+    font-size: 6vh;
     font-weight: bolder;
     color: rgb(247, 221, 218); /*light pink*/
     text-decoration: none;
 }
 
 header .navigation_bar a{
-    font-size: 2vh;
+    font-size: 3vh;
     color: rgb(247, 221, 218); /*light pink*/
     text-decoration: none;
     margin-left: 1rem;
@@ -48,7 +49,8 @@ section #menu_bar_wrapper{
 
 section #menu_bar{
     position: fixed;
-    top: 6vh;
+    /*top: 6vh;*/
+    padding-top: 13.5vh;
     height: 95vh;
     max-width: 25vw;
     z-index: 99; /*very high number*/

@@ -17,19 +17,21 @@ header{
 
     background: rgb(122, 21, 21); /*dark red*/
     box-shadow: 0 0.6vh rgba(122, 21, 21, 0.3); /*darker red*/
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font: 'Franklin Gothic Medium';
+    font-style: italic;
     text-shadow: 0.1rem 0.1rem rgb(143, 98, 47); /*dark mustard*/
 }
 
 header .logo{
-    font-size: 5vh;
+    font-size: 6vh;
     font-weight: bolder;
     color: rgb(247, 221, 218); /*light pink*/
     text-decoration: none;
 }
 
 header .navigation_bar a{
-    font-size: 2vh;
+    font-size: 3vh;
     color: rgb(247, 221, 218); /*light pink*/
     text-decoration: none;
     margin-left: 1rem;
@@ -56,14 +58,14 @@ section #takeout{
     max-height: 100%;
     margin-top: 10vh;
 
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     
 }
 
 
-section #takeout_circle{
+/*section #takeout_circle{
     background-color:rgb(253, 254, 253); /*ivory*/
-    height: 400px;
+    /*height: 400px;
     width: 500px;
     max-height: 35vw;
     max-width: 45vw;
@@ -77,7 +79,7 @@ section #takeout_circle{
 
 
     z-index: 2;
-}
+}*/
 
 section #tagline{
     z-index: 99;
@@ -97,19 +99,6 @@ section #tagline{
     width: 35vw;
 }
 
-@media only screen and (max-width: 480px){
-    header .logo{
-        font-size: 1rem;
-    }
-
-    header .navigation_bar a{
-        font-size: 1rem;
-    }
-
-    section #takeout{
-        margin-top: 30px;
-    }
-}
 
 
 section #meal_div{
@@ -126,7 +115,7 @@ section #meal{
     max-height: 100%;
     margin-top: 1vh;
 
-    opacity: 0.5;
+    /*opacity: 0.5;*/
 }
 
 section #info{
@@ -145,4 +134,23 @@ section #notice{
     margin-top: 20px; /* relative to takeout */
     color:rgb(253, 254, 253); /*ivory*/
     font-size: 3.5vw;
+}
+
+
+@media only screen and (max-width: 480px){
+    header .logo{
+        font-size: 1rem;
+    }
+
+    header .navigation_bar a{
+        font-size: 1rem;
+    }
+
+    section #takeout{
+        margin-top: 30px;
+    }
+
+    section #takeout_circle{
+        top: 30px;
+    }
 }
