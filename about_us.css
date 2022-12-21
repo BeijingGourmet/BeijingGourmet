@@ -1,8 +1,13 @@
 body{
-    color: rgb(253, 254, 253); /*ivory*/
-    /*background-color:rgb(230, 160, 41); /*midnight*/
+    color:rgb(13, 16, 16);/*midnight*/
+    /*background-color:rgba(53, 54, 55, 0.3); /*space gray*/
     /*height: 100%;*/
     margin: 0;
+
+    /*background-image: url(images/fire.jpg);
+    background-size: cover;
+    background-blend-mode:luminosity;*/
+    
 }
 
 header{
@@ -54,13 +59,7 @@ section #chef{
 }
 
 section #about{
-    /*position: relative;
-    margin-top: 5vh;
-    font-size: 2vw;
-    margin-left: 7px;
-    margin-right: 5px;
-    font-style: italic;
-    color: rgb(181, 122, 56); /*dark mustard*/
+    color: rgb(253, 254, 253); /*ivory*/
 
     z-index: 99;
     position: absolute;
@@ -86,6 +85,7 @@ section #gallery_div{
     position: relative;
     left: 1vw;
     right: 1vw;
+    
 }
 
 #noodles{
@@ -93,10 +93,37 @@ section #gallery_div{
     
 }
 #pork{
+    top: 0;
     width: 32vw;
 }
 #shrimp{
     width: 32vw;
+}
+
+#orange_chicken{
+    width: 32vw;
+}
+
+#soup{
+    width: 32vw;
+}
+
+#shrimp{
+    width: 32vw;
+}
+
+#vegetable{
+    width: 32vw;
+}
+
+.gallery_des {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color:blue; /*ivory*/
+    margin-left: 2vw;
 }
 
 

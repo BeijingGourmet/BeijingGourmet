@@ -70,7 +70,7 @@ section #menu_bar li{
 }
 
 section #menu_bar li:hover{
-    background-color:rgb(13, 16, 16);/*darker red*/
+    background-color:rgb(13, 16, 16);/*midnight*/
 }
 
 section #menu_bar a{
