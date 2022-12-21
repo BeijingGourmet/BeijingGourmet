@@ -60,7 +60,7 @@ section #menu_bar{
     padding-right: 2px;
 
     background: rgb(122, 21, 21); /*dark red*/
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 'Franklin Gothic Medium';
 }
 
 section #menu_bar li{
