@@ -94,10 +94,36 @@ section .menu_pg{
 
 @media only screen and (max-width: 480px){
     header .logo{
-        font-size: 1rem;
+        font-size: 6.5vw;
     }
 
     header .navigation_bar a{
-        font-size: 1rem;
+        font-size: 4vw;
+    }
+
+    section #menu_bar a{
+        font-size: 3vw;
+    }
+
+    section #menu_pgs{
+        position: relative;
+        top: 7vh;
+        left: 8vw;
+    }
+
+    section #menu_bar{
+        position: fixed;
+        /*top: 6vh;*/
+        padding-top: 6vh;
+        height: 95vh;
+        max-width: 25vw;
+        z-index: 99; /*very high number*/
+    
+        list-style-type: none;
+        padding-left: 5px;
+        padding-right: 2px;
+    
+        background: rgb(122, 21, 21); /*dark red*/
+        font: 'Franklin Gothic Medium';
     }
 }
