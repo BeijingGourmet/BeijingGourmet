@@ -1,6 +1,6 @@
 body{
     color: rgb(253, 254, 253); /*ivory*/
-    background-color:rgb(230, 160, 41); /*midnight*/
+    background-color:rgb(230, 160, 41); /*mustard*/
     height: 100%;
     margin: 0;
 }
@@ -87,9 +87,31 @@ section #menu_pgs{
 }
 
 section .menu_pg{
-    margin-left: 20vw;
+    margin-left: 17vw;
     width: 73vw;
     height: auto;
+    margin-bottom: 2vh;
+}
+
+#menu_chefs_specials{
+    margin-bottom: 0;
+    margin-left: 17vw;
+    width: 73vw;
+    height: auto;
+    padding: 6px;
+    background-color:rgb(122, 21, 21);
+}
+
+.white_menu_pg{
+    height: 25px;
+    opacity: 0;
+
+    margin-left: 17vw;
+    margin-bottom: 2vh;
+}
+
+#menu_white2{
+    margin-bottom:5vh;
 }
 
 @media only screen and (max-width: 480px){

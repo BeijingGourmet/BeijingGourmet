@@ -54,7 +54,7 @@ section #chef{
     max-width: 100vw;
     height: auto;
     max-height: 100%;
-    margin-top: 8vh;
+    margin-top: 9vh;
 
     /*opacity: 2;*/
 }
@@ -70,6 +70,7 @@ section #about{
     
     font-size: 2.5vw;
     font-weight: bold;
+    font-style: italic;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
