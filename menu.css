@@ -52,7 +52,7 @@ section #menu_bar{
     /*top: 6vh;*/
     padding-top: 13.5vh;
     height: 95vh;
-    max-width: 25vw;
+    max-width: 15vw;
     z-index: 99; /*very high number*/
 
     list-style-type: none;
@@ -61,6 +61,7 @@ section #menu_bar{
 
     background: rgb(122, 21, 21); /*dark red*/
     font: 'Franklin Gothic Medium';
+    
 }
 
 section #menu_bar li{
@@ -69,6 +70,7 @@ section #menu_bar li{
 
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
+    padding-right: 0.5vw;
 }
 
 section #menu_bar li:hover{
@@ -76,7 +78,7 @@ section #menu_bar li:hover{
 }
 
 section #menu_bar a{
-    font-size: 2vh;
+    font-size: 1.68vw;
     color: rgb(247, 221, 218); /*light pink*/
     text-decoration: none;
 }
@@ -87,7 +89,7 @@ section #menu_pgs{
 }
 
 section .menu_pg{
-    margin-left: 17vw;
+    margin-left: 20vw;
     width: 73vw;
     height: auto;
     margin-bottom: 2vh;
@@ -95,7 +97,7 @@ section .menu_pg{
 
 #menu_chefs_specials{
     margin-bottom: 0;
-    margin-left: 17vw;
+    margin-left: 20vw;
     width: 73vw;
     height: auto;
     padding: 6px;
@@ -130,7 +132,8 @@ section .menu_pg{
     section #menu_pgs{
         position: relative;
         top: 4vh;
-        left: 8vw;
+        /*left: 8vw;*/
+        left: 3.5vw;
     }
 
     section #menu_bar{
@@ -138,7 +141,7 @@ section .menu_pg{
         /*top: 6vh;*/
         padding-top: 6vh;
         height: 95vh;
-        max-width: 25vw;
+        max-width: 20vw;
         z-index: 99; /*very high number*/
     
         list-style-type: none;
